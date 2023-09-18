@@ -3,16 +3,48 @@
   margin-top: 5%;
 }
 
+body{
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:#ffff;
+}
+
+h1, h3{
+  text-align:center;
+}
+
+button{
+  margin-top:10px;
+}
+
+#output{
+  width: 30%;
+  margin: 0 auto;
+}
+
+form{
+  justify-content: center;
+  text-align: center;
+}
+
 .p-50 {
   margin: 50px;
 }
 
 #testui {
+  background-color:#4a6880;
+  opacity: 95%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   margin-left: 5%;
+  margin-right:5%;
+  margin-top: 15%;
+  margin-bottom: auto;
 }
 
 .text-align-left {
-  text-align: left;
+  text-align: center;
 }
 
 input[type='text'] {
